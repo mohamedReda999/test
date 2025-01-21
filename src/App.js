@@ -2,17 +2,29 @@
 
 import Navbar from './Navbar'
 import Home from './Home';
+import Button from './Button'
+import Card from  './Card'
+import Student from  './Student'
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    <div className="content">
-      <Home/>
+  <>
+<Navbar/>
+<Home/>
+<Card />
+<Button/>
+<Student name="sponhebob" age={22} isStudent={true}/>
+<Student name="3bas" age={30} isStudent={true}/>
+<Student name="Sha3pan" age={44} isStudent={true}/>
+<Student />
+
+
+
+
+  </>
+    
       
-      
-      
-      </div>  
-      </div>
+
     
   );
 }
