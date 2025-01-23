@@ -5,6 +5,9 @@ import Home from './Home';
 import Button from './Button'
 import Card from  './Card'
 import Student from  './Student'
+import List from './List'
+import Counter from './Counter'
+import MyComponent from './MyComponent'
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
 <Student name="3bas" age={30} isStudent={true}/>
 <Student name="Sha3pan" age={44} isStudent={true}/>
 <Student />
+<List />
+<Counter />
+<MyComponent/>
 
 
 
