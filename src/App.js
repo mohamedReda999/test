@@ -8,7 +8,8 @@ import Student from  './Student'
 import List from './List'
 import Counter from './Counter'
 import MyComponent from './MyComponent'
-
+import ColorPicker from './ColorPicker'
+import TypingSpeed from './TypingSpeed'
 function App() {
   return (
   <>
@@ -23,6 +24,8 @@ function App() {
 <List />
 <Counter />
 <MyComponent/>
+<ColorPicker/>
+<TypingSpeed/>
 
 
 
